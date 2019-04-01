@@ -27,7 +27,7 @@ class UserController extends Controller
     {
         $users = User::all();
 
-        return $users;
+        return response()->json($users);
     }
 
     /**
@@ -40,7 +40,7 @@ class UserController extends Controller
     {
         $user = User::findOrFail($id);
 
-        return $user;
+        return response()->json($user);
     }
 
     /**
@@ -60,7 +60,7 @@ class UserController extends Controller
 
         $user->save();
 
-        return $user;
+        return response()->json($user);
     }
 
 }

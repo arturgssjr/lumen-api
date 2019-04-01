@@ -11,3 +11,7 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://laravel-api.test/ping
+
+###

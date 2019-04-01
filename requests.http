@@ -1,0 +1,3 @@
+GET http://laravel-api.test/user
+
+###

@@ -1,3 +1,13 @@
 GET http://laravel-api.test/user
 
 ###
+
+POST http://laravel-api.test/user
+Content-Type: application/json
+{
+    "name": "Robson Cardoso",
+    "email": "robson.cardoso@soluti.com.br",
+    "password": 123456
+}
+
+###

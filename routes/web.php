@@ -15,7 +15,10 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
+$router->get('/ping', function () {
+    return response()->json(['ack' => time()]);
+});
+
 $router->get('user', 'UserController@index');
 $router->get('user/{id}', 'UserController@show');
 $router->post('user', 'UserController@store');
-

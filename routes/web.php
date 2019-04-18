@@ -22,3 +22,9 @@ $router->get('/ping', function () {
 $router->get('user', 'UserController@index');
 $router->get('user/{id}', 'UserController@show');
 $router->post('user', 'UserController@store');
+
+/**
+ * Rotas para Eventos
+ */
+$router->get('event', 'EventController@index');
+$router->post('event', 'EventController@store');

@@ -1,8 +1,8 @@
-GET http://laravel-api.test/user
+GET http://lumen-api.test/user
 
 ###
 
-POST http://laravel-api.test/user
+POST http://lumen-api.test/user
 {
     "name": "Artur Júnior",
     "email": "artur.junior@soluti.com.br",
@@ -11,6 +11,6 @@ POST http://laravel-api.test/user
 
 ###
 
-GET http://laravel-api.test/ping
+GET http://lumen-api.test/ping
 
 ###
